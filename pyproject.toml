@@ -1,11 +1,19 @@
 [tool.poetry]
 name = "slitherway"
-version = "0.1.1"
+version = "0.1.2"
 description = "Python wrapper for the Flyway CLI"
 authors = ["Ryan Brink <rbweb@pm.me>"]
+keywords = ["migrations", "flyway"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/unredundant/slitherway"
+repository = "https://github.com/unredundant/slitherway"
+include = [
+    "LICENSE",
+]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.6 ^3.10"
 pydantic = "^1.9.0"
 
 [tool.poetry.dev-dependencies]
