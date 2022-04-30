@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "slitherway"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python wrapper for the Flyway CLI"
 authors = ["Ryan Brink <rbweb@pm.me>"]
 
