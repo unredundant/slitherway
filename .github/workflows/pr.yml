@@ -15,6 +15,6 @@ jobs:
       - name: Install Dependencies
         run: poetry install
       - name: Install Flyway
-        run: snap install flyway
+        run: sudo snap install flyway
       - name: Run Tests
         run: poetry run pytest
